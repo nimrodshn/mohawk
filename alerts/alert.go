@@ -13,8 +13,8 @@ const (
 type RangeIntervalType int
 
 type Range struct {
-	From float64		   `mapstructure:"from"`
-	To   float64           `mapstructure:"to"`
+	Max  float64		   `mapstructure:"max"`
+	Min  float64           `mapstructure:"min"`
 	Type RangeIntervalType `mapstructure:"type"`
 }
 
